@@ -1,0 +1,81 @@
+.image00{
+width: 100%;
+object-fit: cover;
+border: none;
+height: auto;
+background: cover;
+display: block;
+max-width: 100%;
+
+}
+
+*{
+margin: 0;
+padding: 0;
+scrollbar-width: none;
+box-sizing: border-box;
+font-family:  "Roboto" , sans-serif;
+}
+
+
+.body{
+    line-height: 0;
+}
+
+.header{
+position: fixed;
+top: 0;
+display: flex;
+width: 100%;
+left: 0;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+padding: 20x 100px;
+background: transparent;
+}
+
+.logo{
+font-size:32px;
+color: white;
+text-decoration: none;
+font-weight: 700;
+
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+height: 2px;
+width: 0;
+background: black;
+transition: .3s;
+
+}
+
+.navbar a:hover::before {
+width: 100%;
+
+}
+
+
+@media only screen and (max-width: 768px)  {
+   
+    
+    
+
+}
